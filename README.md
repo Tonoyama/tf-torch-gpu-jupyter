@@ -2,6 +2,10 @@
 GPU版のTensorflow、PyTorchをJupyter notebookで使えるようにした。
 
 ## 使い方
+
+`docker-compose.yml`の`volumes`にある`- ~/Dev/ML:/tf`では、ホストPCのディレクトリをマウントしています。
+適宜、自身の環境に合わせてください。
+
 環境をビルド(いきなりupしても良い)
 ```shell=
 docker-compose build
