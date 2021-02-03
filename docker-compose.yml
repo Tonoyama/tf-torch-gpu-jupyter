@@ -1,0 +1,13 @@
+version: "2.4"
+services:
+    tensorflow_notebook:
+        build: .
+        runtime: nvidia
+        environment:
+            - NVIDIA_VISIBLE_DEVICES=all
+            - NVIDIA_DRIVER_CAPABILITIES=all
+        ports:
+            - 8888:8888
+        volumes:
+            - ~/Dev/ML:/tf
+        restart: always
