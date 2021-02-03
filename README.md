@@ -1,5 +1,5 @@
 # tf-torch-gpu-jupyter
-GPU版のTensorflow、PyTorchをJupyter Labで使えるようにした。
+GPU版のTensorflow・PyTorch・KerasをJupyter Labで使えるようにした。
 
 ## 使い方
 
