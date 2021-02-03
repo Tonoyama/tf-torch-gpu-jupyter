@@ -39,8 +39,8 @@ docker container ls -a
 ```
 
 ```shell=
-CONTAINER ID   IMAGE                               COMMAND                  CREATED             STATUS                           PORTS                               NAMES
-68a6b69bf462   practice_tensorflow_notebook        "tini -g -- start-no…"   7 minutes ago       Up 7 minutes                     0.0.0.0:8888->8888/tcp              practice_tensorflow_notebook_1
+CONTAINER ID   IMAGE                               COMMAND                  CREATED          STATUS                      PORTS                               NAMES
+9db07dda0f34   docker-tf_notebook                  "/bin/bash -c 'jupyt…"   8 minutes ago    Up 27 seconds               0.0.0.0:8888->8888/tcp              docker-tf_notebook_1
 ```
 `NAMES`と書かれているのがコンテナ名。
 
