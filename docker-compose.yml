@@ -1,6 +1,6 @@
 version: "2.4"
 services:
-    tensorflow_notebook:
+    notebook:
         build: .
         runtime: nvidia
         environment:
