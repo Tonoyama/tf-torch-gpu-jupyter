@@ -1,6 +1,7 @@
 # tf-torch-gpu-jupyter
 GPU版のTensorflow、PyTorchをJupyter notebookで使えるようにした。
 
+## 使い方
 環境をビルド(いきなりupしても良い)
 ```shell=
 docker-compose build
@@ -26,7 +27,7 @@ docker-compose down
 docker-compose build --no-cache
 ```
 
-### 追加でインストールしたい場合
+## 追加でインストールしたい場合
 
 起動したコンテナ名を確認する
 ```shell=
