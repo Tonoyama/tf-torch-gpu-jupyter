@@ -1,6 +1,8 @@
 # tf-torch-gpu-jupyter
 GPU版のTensorflow・PyTorch・KerasをJupyter Labで使えるようにした。
 
+CPU版も作成。
+
 ## 使い方
 
 `docker-compose.yml`の`volumes`にある`- ~/Dev/ML:/tf`では、ホストPCのディレクトリをマウントしています。
