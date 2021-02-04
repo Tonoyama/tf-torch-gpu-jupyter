@@ -1,4 +1,4 @@
-FROM python:3.8.0
+FROM tensorflow/tensorflow:latest
 
 LABEL name="Yudai Tonoyama"
 LABEL email="yudaitonoyama@gmail.com"
